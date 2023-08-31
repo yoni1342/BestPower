@@ -126,7 +126,7 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgb(234, 6, 6) 0%, #ff000062 100%);
+  background: linear-gradient(180deg, rgb(228, 132, 132) 0%, #d3b7b762 100%);
   filter: blur(300px);
 }
 
