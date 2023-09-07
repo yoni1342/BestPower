@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = ({name}) => {
   const [active, setActive] = useState({name});
@@ -13,6 +14,7 @@ const Navbar = ({name}) => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
+          <Link to={nav.title == 'Home'? '/': `/${nav.title}`}>
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
@@ -22,6 +24,7 @@ const Navbar = ({name}) => {
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
+          </Link>
         ))}
       </ul>
 
