@@ -57,8 +57,10 @@ function AboutPage() {
           
         >
           <div className="w-[1230px] h-[424px] overflow-hidden bg-white  opacity-40 z-10">
+            <AboutCard />
             
           </div>
+          <AboutCard />
         </section>
     </div>
   );
