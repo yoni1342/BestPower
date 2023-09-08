@@ -16,6 +16,11 @@ import {
   Hero,
 } from "../components";
 import icon1 from "../assets/love.jpg";
+import emoji from "../assets/emoji.jpg";
+import flag from "../assets/flag.jpg";
+import friends from "../assets/friends.jpg";
+import increase from "../assets/increase.jpg";
+import light from "../assets/light.jpg";
 
 function AboutPage() {
   return (
@@ -85,7 +90,7 @@ function AboutPage() {
           >
             Our Values
           </h1>
-          <p className="text-center">
+          <p className="text-center font-poppins">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           </p>
 
@@ -101,7 +106,7 @@ function AboutPage() {
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
-              <img src={icon1} className="w-[76px] h-[70px]" alt="" />
+              <img src={emoji} className="w-[76px] h-[70px]" alt="" />
               <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
               <p className="text-[12px] font-poppins">
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -110,7 +115,7 @@ function AboutPage() {
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
-              <img src={icon1} className="w-[76px] h-[70px]" alt="" />
+              <img src={friends} className="w-[76px] h-[70px]" alt="" />
               <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
               <p className="text-[12px] font-poppins">
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -119,7 +124,7 @@ function AboutPage() {
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
-              <img src={icon1} className="w-[76px] h-[70px]" alt="" />
+              <img src={flag} className="w-[76px] h-[70px]" alt="" />
               <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
               <p className="text-[12px] font-poppins">
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -128,7 +133,7 @@ function AboutPage() {
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
-              <img src={icon1} className="w-[76px] h-[70px]" alt="" />
+              <img src={light} className="w-[76px] h-[70px]" alt="" />
               <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
               <p className="text-[12px] font-poppins">
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -137,7 +142,7 @@ function AboutPage() {
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
-              <img src={icon1} className="w-[76px] h-[70px]" alt="" />
+              <img src={increase} className="w-[76px] h-[70px]" alt="" />
               <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
               <p className="text-[12px] font-poppins">
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
