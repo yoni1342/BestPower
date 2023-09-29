@@ -1,0 +1,8 @@
+version: '3'
+services:
+  # Add any shared services or configurations here if needed.
+  bestpower:
+    build: 
+      context: ../client
+    
+    image: bestpower-i

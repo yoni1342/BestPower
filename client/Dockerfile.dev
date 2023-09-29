@@ -1,0 +1,19 @@
+# Use an official Node.js runtime as a parent image
+FROM node:14
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the entire project to the working directory
+COPY . .
+
+# Start the development server using npm run dev
+CMD ["npm", "run", "dev"]
+
+EXPOSE 3000

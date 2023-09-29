@@ -12,6 +12,8 @@ import {
   Hero,
 } from "./components";
 import { service1, service2 } from "./assets";
+import Services from "./pages/Services/index"
+import ProductListPage from "./pages/Products"
 import HomePage from "./pages/HomePage";
 import ContactusPage from "./pages/ContactusPage";
 import { Route, Routes } from "react-router-dom";
@@ -23,7 +25,9 @@ const App = () => (
     <Route path="/" element={<HomePage />} />
     <Route path="/about" element={<AboutPage />} />
     <Route path="/contact" element={<ContactusPage />} />
-    <Route path="/random" element={<About />} />
+    <Route path="/service" element={<Services />} />
+    <Route path="/product" element={<ProductListPage />} />
+    {/* <Route path="/random" element={<About />} /> */}
   </Routes>
 );
 
