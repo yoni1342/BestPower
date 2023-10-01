@@ -8,22 +8,23 @@ function ProductCard({ product }) {
 
   useEffect(() => {
     setImages(product.images);
-  }, [active]);
+  }, [product]);
+  console.log(product)
   return (
     <div className="bg-white w-[360px] h-[400px] border-[1px] border-black">
       <div className="flex flex-col rounded p-1">
-        <Link to={`/product/${product.slug}?style=${active}`}>
+        <Link to={`/product/${product.cat_id}/${product.id}`}>
           <ProductSwiper images={images} />
         </Link>
         <div className="mt-2 px-3">
-          <Link to={`/product/${product.slug}?style=${active}`}>
+          <Link to={`/product/${product.cat_id}/${product.id}`}>
             <h3 className="text-xl">
               {product?.name?.length > 45
                 ? `${product.name.substring(0, 45)}`
                 : product.name}
             </h3>
             <p className="text-sm font-light text-gray-500">
-              Short description of the product. Lorem ipsum dolor sit amet,
+              {product.desc}
             </p>
           </Link>
         </div>

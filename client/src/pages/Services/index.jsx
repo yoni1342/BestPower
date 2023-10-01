@@ -36,7 +36,7 @@ function Index() {
             "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut al Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aI Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut al Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aI"
           }
           ServiceImage={service2}
-          ServicePageLink={"#"}
+          ServicePageLink={"1"}
         />
         <ServiceII
           ServiceTitel={"Import and Distribution of Power Equipment"}
@@ -44,7 +44,7 @@ function Index() {
             "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut al Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aI Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut al Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aI"
           }
           ServiceImage={service2}
-          ServicePageLink={"#"}
+          ServicePageLink={"2"}
         />
       </div>
 

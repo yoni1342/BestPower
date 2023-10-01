@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import styles from "../../style";
 function ProductCategory({ category }) {
@@ -27,6 +27,10 @@ function ProductCategory({ category }) {
     setCurrentPage(id);
   }
 
+  useEffect(() => {
+    console.log(currentPage)
+  }, [currentPage]);
+  
   return (
     <div>
       <div>

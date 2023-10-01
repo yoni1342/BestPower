@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -25,7 +40,7 @@ export const navLinks = [
         id: "service-3",
         title: "Service 3",
       },
-    ]
+    ],
   },
   {
     id: "product",
@@ -35,8 +50,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-
-  
 ];
 
 export const features = [
@@ -216,6 +229,15 @@ export const clients = [
   },
 ];
 
+export const services = [
+  {
+    id: "service-1",
+    icon: shield,
+    title: "Power Equipment",
+    desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
+  },
+]
+
 export const Product = [
   {
     id: "prod-1",
@@ -225,12 +247,11 @@ export const Product = [
       "https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/library/visit/ev-charging-point-wimpole-cambs-1592403.jpg",
       "https://parkers-images.bauersecure.com/wp-images/19055/675x450/portable2.jpg",
       "https://solutions.dominionenergy.com/wp-content/uploads/2023/01/Charger-in-Garage-copy.jpg",
-      "https://www.eqmagpro.com/wp-content/uploads/2019/04/The-Ultimate-Electric-Car-Charger-Guide.jpg"
+      "https://www.eqmagpro.com/wp-content/uploads/2019/04/The-Ultimate-Electric-Car-Charger-Guide.jpg",
     ],
     desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
-
-  }
-]
+  },
+];
 
 export const Categoris = [
   {
@@ -239,6 +260,7 @@ export const Categoris = [
     desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
     products: [
       {
+        cat_id: "cat-1",
         id: "prod-1",
         slug: "full-electric-car-equipment",
         name: "Full Electric Car Equipment",
@@ -246,12 +268,12 @@ export const Categoris = [
           "https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/library/visit/ev-charging-point-wimpole-cambs-1592403.jpg",
           "https://parkers-images.bauersecure.com/wp-images/19055/675x450/portable2.jpg",
           "https://solutions.dominionenergy.com/wp-content/uploads/2023/01/Charger-in-Garage-copy.jpg",
-          "https://www.eqmagpro.com/wp-content/uploads/2019/04/The-Ultimate-Electric-Car-Charger-Guide.jpg"
+          "https://www.eqmagpro.com/wp-content/uploads/2019/04/The-Ultimate-Electric-Car-Charger-Guide.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
-
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "full-electric-car-equipment",
         name: "AVR",
@@ -259,155 +281,167 @@ export const Categoris = [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-3",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-4",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-5",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-6",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-7",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-8",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-9",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-10",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-11",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-12",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-13",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
       {
-        id: "prod-2",
+        cat_id: "cat-1",
+        id: "prod-14",
         slug: "full-electric-car-equipment",
         name: "AVR",
         images: [
           "https://powerwalker.com/wp-content/uploads/2022/02/PowerWalker-AVR-2000-SIV_right.jpg",
           "https://ae01.alicdn.com/kf/U2ea8de73b3274466aaa3a39ea8896ceaU/Voltage-stabilizer-avr-1000-600-W-1000-a-ippon-551688.jpg",
           "https://m.media-amazon.com/images/I/51WnAj0iaZL._AC_UF894,1000_QL80_.jpg",
-          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg"
+          "https://m.media-amazon.com/images/I/61TnP9sxtpL._AC_UF894,1000_QL80_.jpg",
         ],
         desc: "Welcome to BEST POWER - your one-stop destination for premium power equipment, electrical accessories, and turnkey EPC projects. Discover innovative energy solutions with our relentless commitment to excellence.",
       },
-    ]
+    ],
   },
 
   {
@@ -416,6 +450,7 @@ export const Categoris = [
     desc: "This is ICT Equipments are available with us for your needs and requirements. We are the leading ICT Equipment supplier in Sri Lanka.",
     products: [
       {
+        cat_id: "cat-2",
         id: "prod-1",
         slug: "Fiber-Optic-Cable",
         name: "Fiber Optic Cable",
@@ -423,11 +458,12 @@ export const Categoris = [
           "https://4.imimg.com/data4/NB/EE/MY-4493487/4-core-fiber-optic-cable.jpg",
           "https://m.media-amazon.com/images/I/61NywiGpkeL._AC_UF1000,1000_QL80_.jpg",
           "https://m.media-amazon.com/images/I/61AUckRyDZL._AC_UF1000,1000_QL80_.jpg",
-          "https://www.multicominc.com/wp-content/uploads/Draka_ezSPAN.png"
+          "https://www.multicominc.com/wp-content/uploads/Draka_ezSPAN.png",
         ],
         desc: "Find the best Fiber Optic Cable price in Sri Lanka. We are the leading Fiber Optic Cable supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -435,11 +471,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -447,11 +484,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -459,11 +497,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -471,11 +510,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -483,11 +523,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -495,11 +536,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -507,11 +549,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -519,11 +562,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -531,11 +575,12 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
       {
+        cat_id: "cat-1",
         id: "prod-2",
         slug: "Servers",
         name: "Servers",
@@ -543,11 +588,10 @@ export const Categoris = [
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/rack-server.jpg",
           "https://au.insight.com/content/dam/insight-web/sitesections/buy/products/tower-server.jpg",
           "https://microless.com/cdn/products/03151c99fcdece4633fd852a55e220e3-md.jpg",
-          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg"
+          "https://www.energypower.gr/wp-content/uploads/2019/10/AVR-1.jpg",
         ],
         desc: "Find the best Servers price in Sri Lanka. We are the leading Servers supplier in Sri Lanka.",
       },
-    ]
+    ],
   },
-  
-]
+];

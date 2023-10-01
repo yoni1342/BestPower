@@ -18,6 +18,8 @@ import HomePage from "./pages/HomePage";
 import ContactusPage from "./pages/ContactusPage";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
+import ProductDetail from './pages/Products/ProductDetailPage'
+import ServiceDetail from "./pages/Services/ServiceDetail";
 import About from "./pages/About";
 
 const App = () => (
@@ -26,7 +28,9 @@ const App = () => (
     <Route path="/about" element={<AboutPage />} />
     <Route path="/contact" element={<ContactusPage />} />
     <Route path="/service" element={<Services />} />
+    <Route path="/service/:service_id" element={<ServiceDetail />} />
     <Route path="/product" element={<ProductListPage />} />
+    <Route path="/product/:cat_id/:product_id" element={<ProductDetail />} />
     {/* <Route path="/random" element={<About />} /> */}
   </Routes>
 );
