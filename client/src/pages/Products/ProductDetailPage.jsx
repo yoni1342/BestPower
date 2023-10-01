@@ -4,6 +4,7 @@ import { Categoris } from "../../constants";
 import { Footer, Navbar } from "../../components";
 import styles from "../../style";
 import MainSwiper from "../../components/Products/MainSwiper";
+import { telegram, whatssapp } from "../../assets";
 function ProductDetailPage() {
   const { cat_id, product_id } = useParams();
   const product = Categoris.find((cat) => cat.id === cat_id).products.find(
@@ -21,7 +22,9 @@ function ProductDetailPage() {
 
       <div>
         <div className={`${styles.flexColCenter} ${styles.paddingX}`}>
-          <div className={`${styles.boxWidth} flex flex-col space-y-5 md:space-y-0 md:flex-row `}>
+          <div
+            className={`${styles.boxWidth} flex flex-col space-y-5 md:space-y-0 md:flex-row `}
+          >
             <div className=" md:w-[50%] ">
               <MainSwiper images={product.images} />
             </div>
@@ -31,6 +34,25 @@ function ProductDetailPage() {
                 <p className={`${styles.paragraph} ${styles.paddingX}`}>
                   {product.desc}
                 </p>
+                <div
+                  className={`${styles.paragraph} ${styles.paddingX} ${styles.marginY}`}
+                >
+                  To Buy Contact Us
+                  <div className="flex items-center">
+                    {/* Telegram */}
+                    <a
+                      href={`#`}
+                    >
+                      <img src={telegram} alt="" className="w-14" />
+                    </a>
+                    {/* Whatsapp */}
+                    <a
+                      href={`#`}
+                    >
+                      <img src={whatssapp} alt="" className="w-14" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div></div>

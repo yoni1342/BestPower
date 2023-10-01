@@ -27,10 +27,14 @@ import hero from './hero.png';
 import service1 from './service1.jpg';
 import service2 from './service2.jpg';
 import banner from './banner.png';
+import whatssapp from "./598px-WhatsApp_icon.png";
+import telegram from "./tg.png";
 
 export {
   banner,
   service2,
+  whatssapp,
+  telegram,
   airbnb,
   bill,
   binance,
