@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Categoris } from "../../constants";
+import { Categoris } from "../../constants/products";
 import { Footer, Navbar } from "../../components";
 import styles from "../../style";
 import MainSwiper from "../../components/Products/MainSwiper";
