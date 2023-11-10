@@ -39,11 +39,11 @@ function AboutPage() {
             Who we are
           </h1>
           <p className="text-center font-poppins text-[16px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum
+            Welcome to Best Power, where innovation meets reliability, and
+            progress is powered by cutting-edge solutions. As a leader in the
+            field of power equipment, ICT solutions, and embedded technologies,
+            we are more than a company; we are architects of a connected and
+            empowered future.
           </p>
         </div>
         {/* heading */}
@@ -66,18 +66,18 @@ function AboutPage() {
           <div className="flex flex-col md:flex-row gap-10">
             <AboutCard
               icon={Icon}
-              title="Lorem ipsum dolor sit"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, mollitia ipsa sapiente"
+              title="Innovation Leaders"
+              description="At Best Power, we are pioneers in innovation. We continually explore new technologies, fostering creativity to deliver cutting-edge solutions in power equipment, ICT, and embedded systems."
             />
             <AboutCard
               icon={Icon}
-              title="Lorem ipsum dolor sit"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, mollitia ipsa sapiente"
+              title="Unwavering Reliability"
+              description="Our commitment to reliability is unwavering. Every product, from transformers to software solutions, undergoes rigorous testing. Best Power stands for quality assurance, ensuring products exceed expectations and deliver dependability."
             />
             <AboutCard
               icon={Icon}
-              title="Lorem ipsum dolor sit"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, mollitia ipsa sapiente"
+              title="Customer-Centric Excellence"
+              description="Building lasting relationships is core to Best Power. We prioritize customer needs, fostering partnerships founded on trust, collaboration, and mutual growth. We are not just suppliers; we are dedicated partners in our clients' progress."
             />
           </div>
         </div>
@@ -91,75 +91,87 @@ function AboutPage() {
             Our Values
           </h1>
           <p className="text-center font-poppins">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          These values represent the guiding principles that shape our decisions, actions, and interactions at Best Power. They reflect our commitment to excellence, innovation, and building meaningful relationships as we work together to power progress and connect possibilities.
           </p>
 
           <div className="grid grid-cols-1 gap-6 mt-11 mb-12 md:grid-cols-3">
-
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={icon1} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">Innovation</h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+                We embrace a culture of continuous innovation, where creativity
+                and forward-thinking drive our solutions. At Best Power, we
+                believe in pushing boundaries, exploring new possibilities, and
+                staying at the forefront of technological advancements to
+                deliver products and services that shape the future.
               </p>
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={emoji} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">Reliability</h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+                Reliability is the bedrock of our identity. We are committed to
+                delivering products and services that our clients can depend on.
+                From power equipment to embedded systems, quality assurance and
+                rigorous testing are at the heart of everything we do. Best
+                Power is synonymous with trust and dependability.
               </p>
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={friends} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">Customer-Centricity</h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+                Our clients are at the center of our universe. We listen
+                actively, understand their unique needs, and work
+                collaboratively to find tailored solutions. Best Power is not
+                just a provider; we are partners in progress, committed to
+                building enduring relationships founded on trust, collaboration,
+                and shared success.
               </p>
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={flag} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">Excellence</h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+                Excellence is our standard. From manufacturing processes to
+                customer service, we strive for excellence in every aspect of
+                our business. We are dedicated to meeting and exceeding the
+                highest industry standards, ensuring that our clients receive
+                nothing short of the best from Best Power.
               </p>
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={light} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">
+              Sustainability
+              </h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+              We are committed to sustainability in both our operations and the solutions we provide. Best Power actively seeks environmentally responsible practices, aiming to reduce our ecological footprint. Our focus on sustainability extends to delivering energy-efficient solutions that contribute to a greener future.
               </p>
             </div>
 
             <div className="flex flex-col w-[300px] h-[258px] space-y-3 shadow-lg pl-4">
               <img src={increase} className="w-[76px] h-[70px]" alt="" />
-              <h1 className="text-[20px] font-poppins">Lorem ipsum dolor sit amet</h1>
+              <h1 className="text-[20px] font-poppins">
+              Integrity
+              </h1>
               <p className="text-[12px] font-poppins">
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
+                Integrity is the foundation of our interactions. We operate with honesty, transparency, and ethical conduct in every aspect of our business. Best Power is dedicated to upholding the highest standards of integrity, fostering trust within our team and with our clients, partners, and the community.
               </p>
             </div>
-
           </div>
-
         </div>
       </div>
 
       <div className={` ${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Footer />
-          </div>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
         </div>
+      </div>
     </div>
   );
 }

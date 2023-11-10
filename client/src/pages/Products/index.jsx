@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../style";
 import { Footer, Navbar } from "../../components";
 import ProductCategory from "../../components/Products/ProductCategory";
-import { Categoris } from "../../constants/index";
+import { Categoris } from "../../constants/products";
 
 function index() {
   return (
@@ -21,10 +21,13 @@ function index() {
           </h1>
 
           <p className={`${styles.paragraph}  text-justify ${styles.boxWidth}`}>
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut al Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aI
+            At Best Power, we don't just provide products; we deliver solutions
+            that redefine possibilities. Our product lineup is a testament to
+            our commitment to innovation, precision engineering, and unwavering
+            reliability. As you explore our product page, you'll discover a
+            diverse range of power equipment, ICT solutions, and cutting-edge
+            technologies meticulously crafted to meet the demands of a dynamic
+            and connected world.
           </p>
         </div>
 

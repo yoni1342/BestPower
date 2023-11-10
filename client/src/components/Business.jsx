@@ -28,7 +28,7 @@ const Business = () =>  (
       We are committed to empowering a brighter future with cutting-edge energy solutions. From top-tier power equipment to sustainable practices, we lead the way in shaping a greener and more electrifying world for generations to come.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10`} text={"Read More"}/>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

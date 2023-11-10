@@ -52,8 +52,8 @@ function HomePage() {
 
           <CardDeal />
           <Testimonials />
-          <Clients />
-          <CTA />
+          {/* <Clients /> */}
+          {/* <CTA /> */}
           <Footer />
         </div>
       </div>

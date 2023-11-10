@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_catagories",
+  "info": {
+    "singularName": "service-catagory",
+    "pluralName": "service-catagories",
+    "displayName": "ServiceCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "coverimage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "service": {
+      "displayName": "Service",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service"
+    }
+  }
+}
